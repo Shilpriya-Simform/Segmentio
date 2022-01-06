@@ -40,6 +40,11 @@ public struct SegmentioItem {
         self.badgeColor = nil
     }
     
+    public mutating func changeTitle(_ title: String?) {
+        self.title = title
+    }
+
+    
 }
 
 // MARK: - Content view
